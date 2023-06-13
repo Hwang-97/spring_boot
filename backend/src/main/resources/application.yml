@@ -11,9 +11,11 @@ jasypt:
 
 spring:
   datasource:
-    url: ENC(nHZhnxakjgfzWesx28LnS/aDcBVb5OekZRc0wl97CBGovy9JGnG+ofXsvydTs9Qf11Iqnt2oPcM=)
-    username: ENC(ZApxsDkfif5LYLP3qlw8Mg==)
-    password: ENC(6EVKjZXwrzBL+q/bQkGHQg==)
+    # EX ) jdbc:mysql://localhost:{포트번호}/{데이터베이스 이름}?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    # ENC(암호화된 정보.)
+    url: ENC(xo4fJn9bEUDl7KCZBBb1bgWUaoAkTzmdpSmmj4Udz+6uphfrWgXN/QdxF01AYDhuJGkHrWo1n+Y7/nNrUynOnUSi2QlyYCHOFmf3/n01sZx81T/7meGg3Ah7JGg+LCB5Xfnwsc+/VuPwO74W/o46WQ==)
+    username: ENC(pZlyxUpO0dVsIU+SXZScNA==)
+    password: ENC(jz/NnRh0Rf3sEHdHOLeXeA==)
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   # JPA Configuration
