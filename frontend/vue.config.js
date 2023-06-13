@@ -6,6 +6,8 @@ module.exports = {
     },
     configureWebpack: {
         resolve: {
+            // 경로에서 확장자 생략 설정
+            extensions: ['.js', '.vue'],
             alias: {
                 '@': path.join(__dirname, 'src/'),
                 '@components': path.join(__dirname, 'src/components'),
